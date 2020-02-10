@@ -4,6 +4,9 @@ on:
   push:
     paths:
     - 'uwsgi-base/**'
+  create:
+    tags:
+      - v*
 
 jobs:
 
